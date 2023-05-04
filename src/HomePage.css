@@ -1,0 +1,183 @@
+body {
+    background-color: #000000;
+    color: #ffffff; /* Change to your desired text color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container img{
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    height: 32px;
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+}
+
+header .logo:hover:active {
+    color: #1da1f2;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav input {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    border: 1px solid #ccc;
+    background-color: #111111;
+}
+
+nav img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.sidebar {
+    flex: 0 0 200px;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar.hidden {
+    display: none;
+}
+
+.feed {
+    width: 100%;
+}
+
+.sidebar.hidden + .feed {
+    width: calc(100% - 80px); /* subtract the width of the sidebar */
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 1rem;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sidebar a:hover {
+    color: #1da1f2;
+}
+
+.sidebar .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #1da1f2;
+    border-radius: 50%;
+}
+
+.feed {
+    flex: 1;
+    padding: 1rem;
+}
+
+.new-tweet {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.new-tweet img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.new-tweet input[type="text"] {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 9999px;
+    border: 1px solid #ccc;
+    background-color: #111111;
+}
+
+.tweet {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tweet img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.tweet-content {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.username {
+    color: #1da1f2;
+}
+
+.dot {
+    margin: 0 0.5rem;
+    color: #1da1f2;
+}
+
+.timestamp {
+    color: #1da1f2;
+}
+
+button {
+    background-color: #1da1f2;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c8dcc;
+}
