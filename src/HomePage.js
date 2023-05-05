@@ -14,23 +14,21 @@ const HomePage = () => {
         <div className="container">
             <header>
                 <nav>
-                    <ul>
-                        <Link to="/">
-                            <FiTwitter className="logo" />
-                        </Link>
-                        <input type="text" placeholder="Search Twitter" />
-                        <Link to="/profile">
-                            <img
-                                src={avatarImg}
-                                alt="Profile"
-                            />
-                        </Link>
-                        <button onClick={toggleSidebar}>Toggle Sidebar</button>
-                    </ul>
+                    <Link to="/">
+                        <FiTwitter className="logo" />
+                    </Link>
+                    <input type="text" placeholder="Search Twitter" />
+                    <Link to="/profile">
+                        <img
+                            src={avatarImg}
+                            alt="Profile"
+                        />
+                    </Link>
+                    <button onClick={toggleSidebar}>Toggle Sidebar</button>
                 </nav>
             </header>
             <main>
-                <div className="sidebar">
+                <div className="sidebar hidden">
                     <ul>
                         <li>
                             <Link to="/">
@@ -74,9 +72,6 @@ const HomePage = () => {
                                 <span className="label">Profile</span>
                             </Link>
                         </li>
-                        <li>
-                            <button>Tweet</button>
-                        </li>
                     </ul>
                 </div>
                 <div className="feed">
@@ -86,6 +81,8 @@ const HomePage = () => {
                             alt="Profile"
                         />
                         <input type="text" placeholder="What's happening?" />
+                        <button>Tweet</button>
+
                     </div>
                     <div className="tweet">
                         <img

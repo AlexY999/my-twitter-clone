@@ -15,11 +15,12 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-content: center;
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #ccc;
-    height: 32px;
+    height: 44px;
 }
 
 .logo {
@@ -31,7 +32,7 @@ header .logo:hover:active {
     color: #1da1f2;
 }
 
-nav ul {
+nav{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -42,6 +43,7 @@ nav input {
     border-radius: 9999px;
     border: 1px solid #ccc;
     background-color: #111111;
+    color: white;
 }
 
 nav img {
@@ -121,6 +123,7 @@ nav img {
     border-radius: 9999px;
     border: 1px solid #ccc;
     background-color: #111111;
+    color: white;
 }
 
 .tweet {

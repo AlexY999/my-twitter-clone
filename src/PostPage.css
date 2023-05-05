@@ -1,78 +1,78 @@
-/*.post-page {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    width: 100%;*/
-/*    padding: 16px;*/
-/*}*/
+.post-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+}
 
-/*.post-header {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    margin-bottom: 16px;*/
-/*}*/
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
 
-/*.avatar {*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*    border-radius: 50%;*/
-/*    margin-right: 16px;*/
-/*}*/
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
 
 /*.user-info {*/
 /*    display: flex;*/
 /*    flex-direction: column;*/
 /*}*/
 
-/*.username {*/
-/*    margin: 0;*/
-/*}*/
+.username {
+    margin: 0;
+}
 
-/*.handle {*/
-/*    margin: 0;*/
-/*    color: gray;*/
-/*}*/
+.handle {
+    margin: 0;
+    color: gray;
+}
 
-/*.post-content {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    width: 100%;*/
-/*    border: 1px solid lightgray;*/
-/*    border-radius: 8px;*/
-/*    padding: 16px;*/
-/*}*/
+.post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 16px;
+}
 
-/*.post-image {*/
-/*    width: 100%;*/
-/*    margin-bottom: 16px;*/
-/*}*/
+.post-image {
+    width: 100%;
+    margin-bottom: 16px;
+}
 
-/*.post-actions {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    width: 100%;*/
-/*}*/
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
-/*.like-button,*/
-/*.retweet-button {*/
-/*    background-color: transparent;*/
-/*    border: none;*/
-/*    font-size: 16px;*/
-/*    cursor: pointer;*/
-/*}*/
+.like-button,
+.retweet-button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
 
-/*.like-button:hover,*/
-/*.retweet-button:hover {*/
-/*    text-decoration: underline;*/
-/*}*/
+.like-button:hover,
+.retweet-button:hover {
+    text-decoration: underline;
+}
 
-/*.like-button:focus,*/
-/*.retweet-button:focus {*/
-/*    outline: none;*/
-/*}*/
+.like-button:focus,
+.retweet-button:focus {
+    outline: none;
+}
 
-/*.like-button:active,*/
-/*.retweet-button:active {*/
-/*    color: purple;*/
-/*}*/
+.like-button:active,
+.retweet-button:active {
+    color: purple;
+}
